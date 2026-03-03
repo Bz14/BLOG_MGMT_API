@@ -1,1 +1,1 @@
-# GRAPHQL API
+# BLOG API

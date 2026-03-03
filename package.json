@@ -1,0 +1,38 @@
+{
+  "name": "blog_mgmt_api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Bz14/BLOG_MGMT_API#readme",
+  "bugs": {
+    "url": "https://github.com/Bz14/BLOG_MGMT_API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bz14/BLOG_MGMT_API.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsx watch index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "@types/pg": "^8.18.0",
+    "prisma": "^6.19.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.2",
+    "@prisma/client": "^6.19.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.19.0"
+  }
+}
